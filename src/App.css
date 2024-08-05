@@ -1,0 +1,55 @@
+body {
+  background-color: #8e8e8e;
+  margin: 2em;
+}
+#titre {
+  background-color: #dbdbdb;
+  width: fit-content;
+  margin: auto;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#LogicGatePanel,
+#InformationPanel {
+  background-color: #dbdbdb;
+  padding: 1em;
+  border-radius: 1em;
+}
+table,
+th,
+tr {
+  border: solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+td {
+  text-align: center;
+  border: solid black;
+}
+select {
+  border-radius: 5px;
+  font-weight: bold;
+}
+#lightbulb {
+  width: 7vw;
+}
+#bulbContainer {
+  position: relative;
+  display: inline-block;
+}
+#glow {
+  position: absolute;
+  border-radius: 100%;
+  width: 6vw;
+  height: 6vw;
+  top: 5%;
+  left: 7%;
+}
+#glow.active {
+  background-color: rgb(236, 185, 0);
+  box-shadow: 0px 0px 7vw 7vw rgb(236, 185, 0);
+  opacity: 0.85;
+}
