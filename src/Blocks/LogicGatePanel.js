@@ -51,7 +51,7 @@ function LogicGatePanel({ selectedGate }) {
 
         <div className="col-10">
           <img
-            src={picturePath + selectedGate.name + ".png"}
+            src={picturePath + selectedGate.name.toLowerCase() + ".png"}
             alt={selectedGate.name}
             id="picture"
             className="img-fluid d-inline w-50"
